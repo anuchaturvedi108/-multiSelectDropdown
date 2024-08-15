@@ -1,0 +1,64 @@
+/* Basic container styling */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading styling */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Multi-select dropdown styling */
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+}
+
+select option {
+  padding: 8px;
+}
+
+/* Product list styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #f4f4f4;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for products */
+ul li:hover {
+  background-color: #e1e1e1;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  select {
+    font-size: 14px;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+}
